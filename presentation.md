@@ -6,12 +6,12 @@
 
   2. The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
 
-  3. Any sufficiently advanced technology is indistinguishable from magic
+  3. **Any sufficiently advanced technology is indistinguishable from magic.**
 
 Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN 978-0-06-010792-5.
 
 
-## Isaac Asimov - Three (3) Laws of Robototics
+## Isaac Asimov - Three (3) Laws of Robotics
 
 These rules come from Isaac Asimov's work, specifically the *Robot* series
 
