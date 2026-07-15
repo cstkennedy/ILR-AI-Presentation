@@ -1,20 +1,116 @@
+---
+title: What is AI?
+author: Thomas J. Kennedy
+date: 21 July 2026
+toc: yes
+reference-section-title: References
+---
+
+
+# What Will We Cover?
+
+
+## Catalog Description
+
+Generative AI has become more accessible (e.g., OpenAI's ChatGPT and
+Microsoft's Copilot). The term AI will be discussed along with a discussion of
+common terminology (e.g., Generative AI, Artificial General Intelligence, and
+hallucination).
+
+> \vspace{\baselineskip}
+
+The capabilities of different tools (e.g., ChatGPT for text and
+images) will be discussed along with how to generate and recognize similar
+content.
+
+
+## Informal Description
+
+
 # Who am I?
+
+
+## Senior Lecturer (Teaching Associate Professor)
+
+I have taught Computer Science at ODU for a little over ten (10)
+years, including courses ranging from introductory programming to computational
+methods and software.
+
+
+## Dad (Jungle Gym)
+
+My free time is dedicated to being a jungle gym for my
+now-almost-three-year-old daughter… or teaching her about Legos.
 
 
 # Terminology
 
-## What is AI?
+## So. Many. Terms. [^1]
 
-## What is Generative AI?
+![AI Term Hierarchy](diagram-comparing-ai-ml-deep-learning-gen-ai.png)
+
+
+## What is AI? [^1]
+
+> Artificial intelligence (AI) is technology that enables computers and
+> machines to simulate human learning, comprehension, problem solving, decision
+> making, creativity and autonomy.[^1]
+
+
+## What is Generative AI? [^1]
+
+> Generative AI ... refers to deep learning models that
+> can create complex [pseudo-]original content such as long-form text, high-quality
+> images, realistic video or audio... in response to a user’s prompt or
+> request.
+> 
+> \vspace{\baselineskip}
+>
+> At a high level, generative models encode a simplified representation of their
+> training data, and then draw from that representation to create new work that’s
+> similar, but not identical, to the original data.
+> 
+> \vspace{\baselineskip}
+>
+> Generative models have been used for years in statistics to analyze numerical
+> data.
+
+
+## LLM [^4]
+
+
+
+> Large language models (LLMs) are a category of deep learning models trained on
+> immense amounts of data, making them capable of understanding and generating
+> natural language and other types of content to perform a wide range of tasks.
+> LLMs are built on a type of neural network architecture called a transformer
+> which excels at handling sequences of words and capturing patterns in text.
+> 
+> \vspace{\baselineskip}
+>
+> LLMs work as giant statistical prediction machines that repeatedly predict the
+> next word in a sequence. They learn patterns in their text and generate
+> language that follows those patterns.
+
+
+
 
 ## What are Tokens?
 
 
 # Hallucination
 
-  - Actual definition
+## Definition [^3]
 
-  - Relate it to "that guy who seems to know everything and
+> AI hallucination is a phenomenon where, in a large language model (LLM) often a
+> generative AI chatbot or computer vision tool, perceives patterns or objects
+> that are nonexistent or imperceptible to human observers, creating outputs that
+> are nonsensical or altogether inaccurate.
+
+
+## That Guy Who "Knows" Everything
+
+Relate it to "that guy who seems to know everything and
   always has an answer... even if he is wrong"
 
 
@@ -92,3 +188,14 @@ conflict with the First or Second Law.
 **Rule 0**
 
 A robot may not harm humanity, or, by inaction, allow humanity to come to harm.
+
+
+[^1]: Stryker, Cole, and Eda Kavlakoglu. "What Is Artificial Intelligence
+  (AI)?" *IBM*, 15 June 2026,
+  [www.ibm.com/think/topics/artificial-intelligence](https://www.ibm.com/think/topics/artificial-intelligence).
+
+[^3]: IBM. "What Are AI Hallucinations?" *IBM*, 26 Feb. 2026,
+  [www.ibm.com/think/topics/ai-hallucinations](https://www.ibm.com/think/topics/ai-hallucinations).
+
+[^4] Stryker, Cole. "What Are Large Language Models (LLMs)?" *IBM*,
+[www.ibm.com/think/topics/large-language-models](https://www.ibm.com/think/topics/large-language-models).

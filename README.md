@@ -15,3 +15,21 @@ Thomas Kennedy has taught Computer Science at ODU for a little over ten (10)
 years, including courses ranging from introductory programming to computational
 methods and software. His free time is dedicated to being a jungle gym for his
 two-and-a-half-year-old daughter… or teaching her about Legos.
+
+
+# References
+
+Stryker, Cole, and Eda Kavlakoglu. "What Is Artificial Intelligence (AI)?"
+*IBM*, 15 June 2026,
+[www.ibm.com/think/topics/artificial-intelligence](https://www.ibm.com/think/topics/artificial-intelligence).
+
+
+IBM. "What Are AI Hallucinations?" *IBM*, 26 Feb. 2026,
+[www.ibm.com/think/topics/ai-hallucinations](https://www.ibm.com/think/topics/ai-hallucinations).
+
+
+# Commands
+
+```console
+pandoc presentation.md --slide-level=2 -t beamer -o test.pdf
+```
