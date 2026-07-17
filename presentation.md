@@ -7,6 +7,69 @@ reference-section-title: References
 ---
 
 
+# A Joke for a Friend
+
+## Squirrels & Engines
+
+### Initial Prompt
+
+Can you generate a Jeff Bezos style rocket ship laying on the ground (not
+standing vertically) with a dozen squirrels in battle armour rushing out of it?
+
+### Guardrails
+
+> I wasn't able to generate the image you requested because it didn't align with
+> content policy guidelines. If you'd like, I can help adjust the idea or create
+> a different scene. Let me know how you'd like to proceed!
+
+## Squirrels & Engines
+
+### How About?
+
+Can you replace the Jeff Bezos rocketship with the Dr Evil ship from Austin
+powers?
+
+### Guardrails Again
+
+> I cannot create an image featuring the Dr. Evil rocket ship from *Austin
+> Powers* or any other copyrighted material. However, I can design a unique
+> rocket ship inspired by retro-futuristic designs or comedic themes, with
+> squirrels in battle armor rushing out of it. Let me know if you'd like me to
+> proceed with that!
+
+### Success
+
+Please proceed 
+
+## Squirrels & Engines - Success
+
+![Chat GPT Example Image](chat_gpt_example_1.png)
+
+
+## Terminology & Magic?
+
+What...
+
+  - is a *prompt*?
+  - are *guardrails*?
+
+How...
+
+ - did ChatGPT understand what you asked?
+ - did ChatGPT generate the image?
+
+Is it...
+
+  - magic?
+
+
+## Technology 
+
+> Any sufficiently advanced technology is indistinguishable from magic.[^AClark]
+
+[^AClark]: Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN 978-0-06-010792-5.
+
+
 # What Will We Cover?
 
 
@@ -25,6 +88,7 @@ content.
 
 
 ## Informal Description
+
 
 
 # Who am I?
