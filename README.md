@@ -33,3 +33,8 @@ IBM. "What Are AI Hallucinations?" *IBM*, 26 Feb. 2026,
 ```console
 pandoc presentation.md --slide-level=2 -t beamer -o test.pdf
 ```
+
+```console
+pandoc -s presentation.md --slide-level=2 -t beamer -o test.pdf \
+    -V header-includes="\setbeamertemplate{navigation symbols}{} \setbeamertemplate{page number in head/foot}[totalframenumber] \setbeamertemplate{footline}[page number]"
+```

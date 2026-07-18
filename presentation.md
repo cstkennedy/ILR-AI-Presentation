@@ -39,7 +39,7 @@ powers?
 
 ### Success
 
-Please proceed 
+Please proceed
 
 ## Squirrels & Engines - Success
 
@@ -63,7 +63,7 @@ Is it...
   - magic?
 
 
-## Technology 
+## Technology
 
 > Any sufficiently advanced technology is indistinguishable from magic.[^AClark]
 
@@ -127,13 +127,13 @@ now-almost-three-year-old daughter… or teaching her about Legos.
 > can create complex [pseudo-]original content such as long-form text, high-quality
 > images, realistic video or audio... in response to a user’s prompt or
 > request.
-> 
+>
 > \vspace{\baselineskip}
 >
 > At a high level, generative models encode a simplified representation of their
 > training data, and then draw from that representation to create new work that’s
 > similar, but not identical, to the original data.
-> 
+>
 > \vspace{\baselineskip}
 >
 > Generative models have been used for years in statistics to analyze numerical
@@ -149,7 +149,7 @@ now-almost-three-year-old daughter… or teaching her about Legos.
 > natural language and other types of content to perform a wide range of tasks.
 > LLMs are built on a type of neural network architecture called a transformer
 > which excels at handling sequences of words and capturing patterns in text.
-> 
+>
 > \vspace{\baselineskip}
 >
 > LLMs work as giant statistical prediction machines that repeatedly predict the
@@ -203,7 +203,7 @@ Dig through documentation.
   - Example 1... typesetting a table of equations
   - Example 2... arguing with myself (Type-State Builder Pattern in Rust)
   - Example 3... reformatting data
- 
+
 
 # Demos/Pseudo-Demos
 
