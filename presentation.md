@@ -266,9 +266,38 @@ Brief summary of hardware (2 to 3 minutes)
 
 # ChatGPT & Competitors
 
-  - Discuss ChatGPT, Gemini, Microsoft Copilot
+## ChatGPT
 
-  - Discuss special-purpose tools
+  - Face of Generative AI and LLMs
+
+
+## Google Gemini
+
+  - Integrated into Google Search with *AI Overview*s
+
+  - Integrated into Google Home
+
+  - Integrated into Android
+
+
+## Microsoft Copilot
+
+  - Integrated into Microsoft Windows
+
+  - Integrated into Microsoft Office
+
+
+## Special-Purpose Tools
+
+  - Call Screening
+
+  - Phone Operators (Help Lines)
+
+  - Virtual Assistants
+
+  - Accessibility Checkers
+
+  - Claude Code & Cursor
 
 
 # How do I use Generative AI?
@@ -553,9 +582,6 @@ The end result was formatted tabular data that I could copy into Excel.
   - How would I write hello world in modern Java?
 
   - What is stable diffusion?
-
-  
-  
 
 
 
