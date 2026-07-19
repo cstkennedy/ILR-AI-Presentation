@@ -6,6 +6,15 @@ toc: yes
 reference-section-title: References
 ---
 
+# Accessing the Slides
+
+## QR Code & GitHub URL
+
+![Presentation QR Code](presentation.png)
+
+<https://github.com/cstkennedy/ILR-AI-Presentation>
+
+
 # Technology & Magic
 
 ## Arthur C. Clark
