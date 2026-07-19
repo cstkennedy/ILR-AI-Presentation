@@ -6,6 +6,12 @@ toc: yes
 reference-section-title: References
 ---
 
+# Technology & Magic
+
+> Any sufficiently advanced technology is indistinguishable from magic.[^AClark]
+
+[^AClark]: Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN 978-0-06-010792-5.
+
 
 # A Joke for a Friend
 
@@ -63,11 +69,6 @@ Is it...
   - magic?
 
 
-## Technology
-
-> Any sufficiently advanced technology is indistinguishable from magic.[^AClark]
-
-[^AClark]: Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN 978-0-06-010792-5.
 
 
 # What Will We Cover?
