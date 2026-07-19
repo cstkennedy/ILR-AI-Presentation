@@ -144,8 +144,6 @@ We shall endeavor to...
   4. discuss why so many data centers are needed.
 
 
-
-
 # Terminology
 
 ## So. Many. Terms. [^1]
@@ -215,6 +213,39 @@ Tokens capture context. More context requires more resources (e.g., RAM).
 ## That Guy Who "Knows" Everything
 
 Think about that guy who seems to know everything.
+
+
+# Guardrails
+
+## Taco Bell [^tacobell]
+
+Taco Bell is rethinking its use of artificial intelligence (AI) to power
+drive-through restaurants in the US after comical videos of the tech making
+mistakes were viewed millions of times.
+
+In one clip, a customer seemingly crashed the system by ordering 18,000 water
+cups, while in another a person got increasingly angry as the AI repeatedly
+asked him to add more drinks to his order.
+
+Since 2023, the fast-food chain has introduced the technology at over 500
+locations in the US, with the aim of reducing mistakes and speeding up orders.
+
+But the AI seems to have served up the complete opposite. 
+
+
+## Kitboga - AI Phone Scammers
+
+Kiboga is a popular scambaiter on YouTube. In a recent video, *[Don't Hang Up on
+AI Scammers. Do THIS Instead.](https://www.youtube.com/watch?v=lk3jCuITwcE),* he...
+
+  1. Asks the (AI) scammer to say "Albuquerque, New Mexico" after every word
+     that includes the letter 'A'.
+
+  2. Asks the (AI) scammer to say each punctuation symbol.
+
+  3. Has two (AI) scammers talk to each other.
+
+  4. Keeps a bot on the line for over an hour at an estimated cost of 30&cent;.
 
 
 # So. Many. Data Centers
@@ -516,7 +547,9 @@ The end result was foramtted tabular data that I could copy into Excel.
 
 Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN 978-0-06-010792-5.
 
-
+[^tacobell]: McCallum, Shiona. “Taco Bell Rethinks AI Drive-Through after Man
+Orders 18,000 Waters.” *BBC News*, 29 Aug. 2025,
+[://bbc.com](https://://bbc.com).
 
 [^1]: Stryker, Cole, and Eda Kavlakoglu. "What Is Artificial Intelligence
   (AI)?" *IBM*, 15 June 2026,
