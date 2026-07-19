@@ -874,20 +874,25 @@ Can you make the crystal ~40% smaller and remove the campfire?
   3. **Any sufficiently advanced technology is indistinguishable from magic.**
 
 
-[^AClark]: OpenAI. "Tokenizer." *OpenAI Platform*, OpenAI, n.d., platform.openai.com/tokenizer. Accessed 19 July 2026.
+[^AClark]: Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into
+the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN
+978-0-06-010792-5.
 
-[^corsair]: "Memory for Local LLMs: How Much RAM Do You Need? (and When Speed Matters)." *Corsair Explorer*, 28 Apr. 2026, www.corsair.com/us/en/explorer/diy-builder/how-tos/memory-for-local-llms-how-much-ram-do-you-need-and-when-speed-matters/. Accessed 19 July 2026.
+[^corsair]: "Memory for Local LLMs: How Much RAM Do You Need? (and When Speed
+Matters)." *Corsair Explorer*, 28 Apr. 2026,
+www.corsair.com/us/en/explorer/diy-builder/how-tos/memory-for-local-llms-how-much-ram-do-you-need-and-when-speed-matters/.
+Accessed 19 July 2026.
 
 [^tacobell]: McCallum, Shiona. “Taco Bell Rethinks AI Drive-Through after Man
 Orders 18,000 Waters.” *BBC News*, 29 Aug. 2025,
 [://bbc.com](https://://bbc.com).
 
 [^1]: Stryker, Cole, and Eda Kavlakoglu. "What Is Artificial Intelligence
-  (AI)?" *IBM*, 15 June 2026,
-  [www.ibm.com/think/topics/artificial-intelligence](https://www.ibm.com/think/topics/artificial-intelligence).
+(AI)?" *IBM*, 15 June 2026,
+[www.ibm.com/think/topics/artificial-intelligence](https://www.ibm.com/think/topics/artificial-intelligence).
 
 [^3]: IBM. "What Are AI Hallucinations?" *IBM*, 26 Feb. 2026,
-  [www.ibm.com/think/topics/ai-hallucinations](https://www.ibm.com/think/topics/ai-hallucinations).
+[www.ibm.com/think/topics/ai-hallucinations](https://www.ibm.com/think/topics/ai-hallucinations).
 
 [^4]: Stryker, Cole. "What Are Large Language Models (LLMs)?" *IBM*,
 [www.ibm.com/think/topics/large-language-models](https://www.ibm.com/think/topics/large-language-models).
