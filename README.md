@@ -16,6 +16,10 @@ years, including courses ranging from introductory programming to computational
 methods and software. His free time is dedicated to being a jungle gym for his
 two-and-a-half-year-old daughter… or teaching her about Legos.
 
+**Slides**
+
+The slide deck can be [found on GitHub](./slides.pdf).
+
 
 # References
 

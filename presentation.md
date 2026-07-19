@@ -10,7 +10,7 @@ reference-section-title: References
 
 # Accessing the Slides
 
-## QR Code & GitHub URL
+## QR Code & GitHub URL {.c}
 
 ![Presentation QR Code](presentation.png)
 
@@ -23,12 +23,10 @@ reference-section-title: References
 
 > Any sufficiently advanced technology is indistinguishable from magic.[^AClark]
 
-[^AClark]: Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN 978-0-06-010792-5.
 
+## Not Sci-Fi - Isaac Asimov's Three (3) Laws of Robotics [^asimov]
 
-## Not Sci-Fi - Three (3) Laws of Robotics
-
-These rules come from Isaac Asimov's *Robot* series.
+[^asimov]: These rules come from Isaac Asimov's *Robot* series.
 
 **Rule 1**
 
@@ -105,7 +103,8 @@ Is it...
 
   - magic?
 
-# Who am I?
+
+# Who Am I?
 
 ## Senior Lecturer (Teaching Associate Professor)
 
@@ -159,7 +158,7 @@ We shall endeavor to...
 
 ## So. Many. Terms. [^1]
 
-![AI Term Hierarchy](diagram-comparing-ai-ml-deep-learning-gen-ai.png)
+![AI Term Hierarchy](diagram-comparing-ai-ml-deep-learning-gen-ai.png)\
 
 
 ## What is AI? [^1]
@@ -256,12 +255,90 @@ AI Scammers. Do THIS Instead.](https://www.youtube.com/watch?v=lk3jCuITwcE),* he
 
   3. Has two (AI) scammers talk to each other.
 
-  4. Keeps a bot on the line for over an hour at an estimated cost of 30&cent;.
+  4. Keeps a bot on the line for over an hour at an estimated cost of 30&cent; per minute.
 
 
-# So. Many. Data Centers
+# So Many Data Centers
 
-Brief summary of hardware (2 to 3 minutes)
+## Tokens & Context
+
+Prompts and processing require tokens. More context requires more tokens.
+
+[OpenAI's Tokenizer tool](https://platform.openai.com/tokenizer) states
+that ... *one token generally corresponds to ~4 characters of text for
+common English text. This translates to roughly ¾ of a word (so 100 tokens ~=
+75 words).*[^openai]
+
+[Top five essential context window concepts in large language
+models](https://www.micron.com/about/blog/applications/ai/top-five-essential-context-window-concepts-in-large-language-models)
+goes into more detail on context window, context length, and sequence length (i.e., where tokens are used).
+
+[^openai]: OpenAI. "Tokenizer." *OpenAI Platform*, OpenAI, n.d., platform.openai.com/tokenizer. Accessed 19 July 2026.
+
+
+## Hardware
+
+Why are there so many data centers?
+
+  - GPUs vs CPUs
+  - RAM
+  - Cooling
+
+
+## Local AI - Amount [^corsair]
+
+> When you run a large language model locally, the entire model needs to live in
+> memory while it's generating text. Unlike gaming or video editing, where data
+> streams in and out of memory as needed, LLM inference loads the full set of
+> model weights and keeps them resident. Every single token the model generates
+> requires a pass through those weights.
+>
+> ...If you don't have enough RAM or VRAM
+> to hold the model, you either can't run it at all or you end up with part of
+> the model spilling over into slower storage, which tanks performance
+> dramatically. We're talking 5 to 30 times slower in some cases.
+
+## Local AI - Bandwidth [^corsair]
+
+> But capacity is only half the story. Once the model fits in memory, the speed
+> at which your system can feed those weights to the processor becomes the
+> primary limiter for how fast tokens come out. That's memory bandwidth...
+
+
+## Popular Models & Memory Requirements [^corsair] I
+
+| Model                                    | Approx. Memory (Q4 Quantization) |
+| :---                                     | ---:                             |
+| **Phi-4 Mini (3.8B)**                    | ~2.3 GB                          |
+| **Qwen 3.5 4B**                          | ~3.4 GB                          |
+| **Llama 3.2 8B**                         | ~5.0 GB                          |
+| **Qwen 3 8B**                            | ~5.0 GB                          |
+| **Qwen 3.5 9B**                          | ~6.6 GB                          |
+| **DeepSeek-R1-Distill 14B**              | ~9.0 GB                          |
+| **Gemma 3 12B**                          | ~8.0 GB                          |
+
+
+## Popular Models & Memory Requirements [^corsair] II
+
+| Model                                    | Approx. Memory (Q4 Quantization) |
+| :---                                     | ---:                             |
+| **Llama 4 Scout (109B MoE, 17B active)** | ~10 GB                           |
+| **Qwen 3.5 27B**                         | ~17 GB                           |
+| **Qwen 3 32B**                           | ~20 GB                           |
+| **Qwen 3.5 35B-A3B (MoE)**               | ~24 GB                           |
+| **Llama 3.3 70B**                        | ~42 GB                           |
+| **DeepSeek-R1-Distill 70B**              | ~42 GB                           |
+| **GPT-OSS 120B**                         | ~63 GB                           |
+| **Qwen 3.5 122B-A10B (MoE)**             | ~81 GB                           |
+
+## Popular Models & Memory Requirements [^corsair] III
+
+*Add 2 to 8 GB for context, OS overhead, and any other applications you're running alongside.*
+
+
+
+
+
 
 
 # ChatGPT & Competitors
@@ -785,7 +862,7 @@ Can you make the crystal ~40% smaller and remove the campfire?
 
 # Appendix {.unlisted .unnumbered}
 
-## Arthur C. Clark
+## Arthur C. Clark [^AClark]
 
   1. When a distinguished but elderly scientist states that something is
      possible, he is almost certainly right. When he states that something is
@@ -796,7 +873,10 @@ Can you make the crystal ~40% smaller and remove the campfire?
 
   3. **Any sufficiently advanced technology is indistinguishable from magic.**
 
-Clarke, Arthur C. (1973). *Profiles of the future: an inquiry into the limits of the possible* (Rev. ed.). New York London: Harper & Row. ISBN 978-0-06-010792-5.
+
+[^AClark]: OpenAI. "Tokenizer." *OpenAI Platform*, OpenAI, n.d., platform.openai.com/tokenizer. Accessed 19 July 2026.
+
+[^corsair]: "Memory for Local LLMs: How Much RAM Do You Need? (and When Speed Matters)." *Corsair Explorer*, 28 Apr. 2026, www.corsair.com/us/en/explorer/diy-builder/how-tos/memory-for-local-llms-how-much-ram-do-you-need-and-when-speed-matters/. Accessed 19 July 2026.
 
 [^tacobell]: McCallum, Shiona. “Taco Bell Rethinks AI Drive-Through after Man
 Orders 18,000 Waters.” *BBC News*, 29 Aug. 2025,

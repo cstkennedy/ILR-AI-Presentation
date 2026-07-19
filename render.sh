@@ -2,7 +2,8 @@ pandoc -s \
     presentation.md \
     --slide-level=2 \
     -t beamer \
-    -o test.pdf \
+    -o slides.pdf \
+    -V classoption=aspectratio=169 \
     -V header-includes="
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{page number in head/foot}[totalframenumber]
@@ -22,4 +23,12 @@ pandoc -s \
 \patchcmd{\beamer@subsectionintoc}{\vskip1.5em}{\vskip0.1em}{}{}
 \makeatother
 \hypersetup{pdfborderstyle={/S/U/W 1}}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+\captionsetup{labelformat=empty,textformat=empty}
+\setbeamertemplate{footnote}{
+    \nointerlineskip
+    \noindent\raggedright
+    \insertfootnotemark\insertfootnotetext\par
+}
 "
