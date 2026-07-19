@@ -6,6 +6,8 @@ toc: yes
 reference-section-title: References
 ---
 
+# Inspiration
+
 # Accessing the Slides
 
 ## QR Code & GitHub URL
@@ -115,6 +117,15 @@ methods and software.
 
 My free time is dedicated to being a jungle gym for my
 now-almost-three-year-old daughter… or teaching her about Legos.
+
+
+## AI is An Accelerator
+
+AI lets you work faster.
+
+  - If you want to work smarter... faster... AI can help.
+
+  - If you want to be lazy... AI can help with that too.
 
 
 # What Will We Cover?
@@ -508,9 +519,9 @@ bench_create                                      |               |             
 
 ### Repeat... And... Repeat...
 
-I repeated a few dozen more times.
+I repeated the following prompt a few dozen more times.
 
- Can you do the same thing for these bencharks?
+> Can you do the same thing for these benchmarks?
 
 
 --------------------------------------------------------------------------------------- benchmark: 25 tests ----------------------------------------------------------------------------------------
@@ -520,19 +531,233 @@ Name (time in ns)                                                        Min    
 
 ## Reformatting Data - Excel Result
 
-The end result was foramtted tabular data that I could copy into Excel. 
+The end result was formatted tabular data that I could copy into Excel. 
 
 
 # Demos/Pseudo-Demos
 
-## Asking a Quick Question
+## Google Search AI Overview
 
-## Having a Longer Discussion
+  - How do I replace a water heater?
 
-## Generating an Image
+  - Why is Kevin Conroy the best Batman?
+
+  - What is the horseshoe theory in politics?
+
+  - When would I use a Lapace Transform over Feynman's Trick?
+
+  - How does special relativity impact GPS satellites?
+
+  - How would I write hello world in modern C++ (i.e., C++23 with the std::fmt library)?
+
+  - How would I write hello world in modern Java?
+
+  - What is stable diffusion?
+
+  
+  
 
 
-# Appendix
+
+## Generating an Image - Initial Prompt
+
+### Prompt
+
+I would like to generate an image of...
+
+A man with a long beard. The man should be wearing wizard robes (blue with
+stars). He should be near a campfire outside a secluded cabin. 
+
+### Result
+
+[Wizard Image 1](https://share.gemini.google/xbUAxZxSQzLj)
+
+
+## Generating an Image - Steps {.allowframebreaks}
+
+**Defining the Wizard's Persona**
+
+I am now focusing on the wizard's appearance. I'm visualizing a very long, gray
+beard and hair as key features. The scene is a campfire outside his cabin on a
+starry night, with him seated comfortably.
+
+**Visualizing the Wizard's Outfit**
+
+I am now thinking deeply about the wizard's attire, envisioning long, flowing
+blue robes adorned with gold and silver embroidery representing stars and
+constellations. He also needs a matching hat, and will be warming his hands at
+a campfire. I am picturing the scene as outside the wizard's cabin, at night,
+under a starry sky. I am keeping the rustic nature of his cabin in mind. The
+staff is also going to be a key element.
+
+\framebreak
+
+**Constructing the Wizard's Environment**
+
+I'm now detailing the wizard's surroundings. I am focusing on the visual
+characteristics of the cabin and the surrounding environment, like the forest
+setting and starry sky. I have a clear idea of the rustic appearance of the
+cabin, the arrangement of items around the campfire, and the ambient lighting.
+I am visualizing the exact details, like the materials of the cabin and the
+specific arrangement of the starry sky.
+
+\framebreak
+
+**Defining the Wizard's Image**
+
+I'm presently focused on refining the details of the wizard. I'm ensuring the
+robes are richly decorated and visualizing the composition. The pose,
+environment, and setting are also key aspects. I am also working to ensure the
+scene portrays the wizard, robes, campfire, cabin, and sky. The goal is a
+unified cinematic scene.
+
+I am now focusing on refining the specifics of the wizard's appearance,
+including the texture of his beard and robes. I'm considering lighting and how
+it affects the scene's overall ambiance, especially the starry night. I am
+examining and clarifying the placement of elements within the composition.
+
+\framebreak
+
+**Refining the Composition**
+
+I am now organizing the scene, focusing on the key details. The wizard must be
+the focal point, illuminated by the campfire. I'm ensuring the starry night sky
+and rustic cabin are visible but not overpowering. The interplay of light and
+shadow, particularly from the fire, is also under review.
+
+**Assessing Visual Accuracy**
+
+I have evaluated the visual representation against the initial prompt. I see
+that it accurately reflects the requested subject, attire, and background. The
+scene's overall ambiance is also as specified. I am now preparing to share this
+result with the user for their review.
+
+
+## Tweaking the Image
+
+### Prompt
+
+The lantern and backpack do not fit. He is a wizard. Can you replace the
+lantern with a glowing crystal? 
+
+### Result
+
+[Wizard Image 2](https://share.gemini.google/AiufjrdNDgyh)
+
+## Tweaking the Image - Steps {.allowframebreaks}
+
+**Analyzing the Image's Details**
+
+I'm currently reviewing the initial image. My primary focus right now is to
+identify and understand the elements that need modification to align with the
+intended wizard theme. Specifically, I'm identifying the two objects requiring
+replacement. I'm taking notes on their characteristics within the composition
+to ensure a seamless integration of the replacements.
+
+**Refining the Replacement Strategy**
+
+I'm now zeroing in on the specific objects for replacement, focusing on the
+lantern near the bench and the backpack. The goal is to replace the rustic
+lantern with a glowing crystal and remove the backpack entirely. This will
+better align the scene with the wizard theme. I'm considering the scene
+composition to ensure the new objects integrate seamlessly into the current
+environment.
+
+\framebreak
+
+**Implementing the Object Swaps**
+
+I'm now implementing the replacements. My strategy involves swapping the
+objects near the wizard's bench. The existing rustic lantern will be removed,
+and the backpack will be removed. In its place, I will insert a large, glowing
+crystal. I'm taking care to ensure the crystal complements the scene's existing
+magical atmosphere without repeating any existing elements.
+
+**Executing the Transformations**
+
+I'm now in the final stage of implementation. The rustic lantern and backpack
+near the bench are removed entirely. A large, glowing, multi-faceted crystal is
+inserted to fill the space. Its positioning and lighting are adjusted to
+integrate with the existing elements, such as the log bench and mug, and to
+emphasize its role as a magical focus. I'm ensuring the crystal doesn't obscure
+the wizard.
+
+\framebreak
+
+**Implementing the Object Swaps**
+
+I'm now focused on the object replacements. The current plan involves removing
+the rustic glass lantern and the backpack near the bench. I'll replace those
+with a large, glowing crystal to emphasize the magical theme. My focus is on
+ensuring the crystal's light interacts believably with the existing
+environment, maintaining the scene's realistic style and atmosphere. The
+wizard, staff, mug, cabin, and other objects will remain unchanged.
+
+**Implementing the Object Swaps**
+
+I'm now focused on the object replacements. The plan involves replacing the
+lantern and backpack with a large, glowing crystal to match the magical theme,
+ensuring its light integrates believably into the existing environment. I am
+ensuring the wizard, staff, mug, cabin, and other objects remain unchanged.
+
+\framebreak
+
+**Implementing the Object Swaps**
+
+I'm now integrating the crystal. I removed the lantern and backpack. A large
+glowing crystal is now in the scene. I am ensuring the light emitted from the
+crystal harmonizes with existing lighting, keeping the wizard, staff, and mug
+unchanged. The crystal is positioned to be a distinct object, not a repeat of
+the staff crystal.
+
+**Implementing the Changes**
+
+I'm now integrating the crystal and refining details. I removed the lantern and
+backpack and am adding a glowing crystal. I've focused on ensuring the
+crystal's light interacts with the scene realistically and remains distinct
+from the staff. I've added runic patterns to the crystal.
+
+\framebreak
+
+**Verifying Content Change**
+
+I'm checking the changes. I'm focusing on verifying the removal of specific
+items from the original description and the addition of a new magical element
+into the new scenario. I'm currently looking at the original scene, and I'm
+preparing to evaluate the impact of this on the resulting image.
+
+**Checking Element Swaps**
+
+I've confirmed the requested items were removed. The glass lantern and backpack
+are gone from the scene. The glowing, unpolished crystal cluster has been
+added. The crystal's internal, multicolored glow is a key detail I'm noting for
+image generation.
+
+\framebreak
+
+**Analyzing Scene Detail**
+
+I'm now focusing on ensuring that the staff's crystal remains distinct from the
+new crystal formation. I'm verifying the new crystal cluster's placement
+relative to the staff to maintain clarity. Furthermore, I'm checking the
+visuals to confirm the staff's crystal is present and the mug is still there.
+I'm also ensuring the details of the campfire and the cabin remain in the
+scene.
+
+
+## One More Tweak
+
+### Prompt
+
+Can you make the crystal ~40% smaller and remove the campfire?
+
+### Result
+
+[Wizard Image 3](https://share.gemini.google/duL9fFK9XMJW)
+
+
+
+# Appendix {.unlisted .unnumbered}
 
 ## Arthur C. Clark
 
